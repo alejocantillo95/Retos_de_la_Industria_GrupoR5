@@ -9,3 +9,28 @@
 .imagendos {
   width: 100px;
 }
+
+.img-fondo {
+
+}
+
+.carro-n {
+  width: 40px;
+}
+
+.datos-vehiculo {
+  background: #CFC9C4;
+  padding: 50px 90px;
+  border-radius: 20px;
+}
+
+.h2 {
+  text-align: center;
+}
+
+.datos {
+  background: #B9B2AD;
+  padding: 4px 45px;
+  font-size: 10px;
+  border-radius: 20px;
+}
