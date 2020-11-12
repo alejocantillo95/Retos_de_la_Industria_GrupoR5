@@ -1,3 +1,6 @@
+.body {
+  background-image: linear-gradient(rgb(210, 82, 20), rgb(143, 87, 253));
+}
 .header {
   margin: 15px;
   background-color: white;
@@ -13,9 +16,7 @@
 }
 
 .fondo {
-  padding: 5px 40px;
-  margin: 0px -10px 0px -10px;
-  background-image: linear-gradient(rgb(210, 82, 20), rgb(143, 87, 253));
+  padding: 50px 50px;
 }
 
 .carro-n {
@@ -29,8 +30,9 @@
 }
 
 .datos-vehiculo {
-  width: 45%;
-  margin: 50px 0px 50px 0px;
+  width: 600px;
+  left: 300px;
+  float: left;
   background: #CFC9C4;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   color: white;
@@ -58,14 +60,66 @@
 }
 
 .ofertas {
-  width: 30%;
+  height: 800px;
+  width: 300px;
   float: right;
-  top:  0px 0px 0px 0px;
-  background: #CFC9C4;
+  background: #1FCB91;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   color: white;
   border-width: 2px;
   border-style: solid;
   border-radius: 40px;
+    padding: 30px 60px 50px;
+}
+
+.ofertas-p {
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+.s-celular {
+  height: 100px;
+  width: 100px;
+  margin: 0px 0px 10px 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
   padding: 60px 68px 40px;
+}
+
+.s-robo {
+  height: 100px;
+  width: 100px;
+  margin: 0px 0px 10px 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 60px 68px 40px;
+}
+
+.s-mascotas {
+  height: 100px;
+  width: 100px;
+  margin: 0px 0px 10px 30px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 60px 68px 40px;
+}
+
+.etiqueta-p {
+  color: #34A07B;
+  margin: -40px -30px 0px -13px;
+}
+
+.img-ofertas {
+  height: 100px;
+  width: 100px;
+  margin: 10px 0px;
 }
