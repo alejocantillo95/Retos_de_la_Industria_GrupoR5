@@ -1,5 +1,7 @@
 .header {
   margin: 15px;
+  background-color: white;
+  margin-color: white;
 }
 
 .imagenuno {
@@ -10,18 +12,33 @@
   width: 100px;
 }
 
-.img-fondo {
-
+.fondo {
+  padding: 5px 40px;
+  margin: 0px -10px 0px -10px;
+  background-image: linear-gradient(rgb(210, 82, 20), rgb(143, 87, 253));
 }
 
 .carro-n {
   width: 40px;
 }
 
+.vehiculo {
+  color: #DF7319;
+  margin: -55px 0px -3px;
+  text-align: center;
+}
+
 .datos-vehiculo {
+  width: 45%;
+  margin: 50px 0px 50px 0px;
   background: #CFC9C4;
-  padding: 50px 90px;
-  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: white;
+  flex-direction: column;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 60px 68px 40px;
 }
 
 .h2 {
@@ -33,4 +50,22 @@
   padding: 4px 45px;
   font-size: 10px;
   border-radius: 20px;
+}
+
+.confirmacion {
+  margin: 20px 0px -20px 0px;
+  color: #DF7319;
+}
+
+.ofertas {
+  width: 30%;
+  float: right;
+  top:  0px 0px 0px 0px;
+  background: #CFC9C4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 60px 68px 40px;
 }
