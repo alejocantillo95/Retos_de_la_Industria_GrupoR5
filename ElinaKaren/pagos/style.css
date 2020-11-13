@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(#42CE9F,  #5E12AE);
+     font-family: 'Montserrat', sans-serif;
+
+}
+.carousel{
+     width: 50%;
+     height:100%;
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+    background-color:  white;
+    padding-bottom: 0px;
+    margin-left: 50px;
+    padding-top: 0px;
+
+}
+.carousel_header{
+    display:flex;
+    justify-content: center;
+}
+.carousel_header img {
+    margin-right:30px;
+}
+.carousel__container{
+    
+     white-space:nowrap ;/* wrap siginifica envolver y aqui le estamos diciendo no lo la envuelva*/
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;   
+    
+
+   
+
+}
+.carousel-item{
+ width: 160px;
+ height:80px;
+    border-radius: 20px;
+ display: inline-block; 
+    margin-right: 8px;
+    cursor: pointer;
+    transition: 450ms all;
+     transform-origin: center left; 
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+     position: relative;
+     
+     
+}
+.carousel-item:hover  ~ .carousel-item {
+    transform: translate3d(100px 0, 0);
+    /* con esto cuando hagamos hover todos nuestros elementos se van a desplazar a la derecha */
+}
+.carousel__container:hover  .carousel-item {
+   opacity: 0.3; 
+}
+.carousel__container:hover   .carousel-item:hover{
+transform: scale(1.5);
+opacity: 1; 
+}
+.carousel-item-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #838584;
+}
+.carousel-item p {
+    font-size: 10px;
+    color: #838584;
+}
+
+.carousel-item__details--title{
+    margin-top:5px;
+    position: absolute;
+    top:60px;
+    padding-left:13px;
+    font-size:9px;
+    text-align: center;
+}
+.carousel-item__details{
+    
+}
+
+.carousel__container-Elige{
+    
+    color:#42CE9F;
+    font-size: 25px;
+    font-weight: bold;
+    display:flex;
+    text-align:center;
+    padding-top: 8px;
+     margin-bottom:20px;
+
+}
+
+.carousel-item__img{
+    object-fit: cover;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+
+
+
+}
+.carousel-item__img-grap{
+display: flex;
+justify-content:center;
+ object-fit: cover;
+
+    
+}
+.carousel-item__img-credit{
+    width:20px;
+     object-fit: cover;
+    
+}
+
+.valores{
+    display: block;
+    text-align: left;
+    border-radius: 15px;
+    background-color:  #F2F2F2;
+    padding: 20px 40px 10px 30px;
+    width:85%;
+    margin-top:10px;
+
+}
+.Button{
+    display:flex;
+    justify-content: flex-end;
+}
+.Button-pago{
+    padding: 15px;
+    color:white;
+    width:170px;
+    font-size:15px;
+    background-color: #FF4A04;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    border:none;
+    
+
+    
+}
+button:hover{
+    background-color: #06ff06;
+}
+
+.container_fechas{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #E4E4E4;
+    font-size:12px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: #838584;
+
+}
+.container_valores{
+    display:flex;
+    justify-content: space-between;
+   border-bottom: 3px dotted #E4E4E4;
+    font-size: 14px;
+    
+    color: #838584;
+    
+
+}
+
